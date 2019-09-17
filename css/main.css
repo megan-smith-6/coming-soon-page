@@ -1,12 +1,35 @@
 html {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .logo-div {
-  max-width: 8em;
+  max-width: 5em;
   margin: 0 auto;
 }
 
-.my-name {
+.grey {
   color: #7b7b7b;
+}
+
+.social-icon {
+  max-width: 4em;
+}
+
+
+@media only screen and (min-width: 0em) {
+
+  hr {
+    margin: 0 auto;
+    max-width: 85%;
+    border: 3px solid #ff9160;
+  ]
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  hr {
+    max-width: 55%;
+  ]
+
 }
