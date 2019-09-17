@@ -4,6 +4,9 @@ html {
 
 .logo-div {
   max-width: 5em;
+}
+
+.img-center {
   margin: 0 auto;
 }
 
@@ -12,9 +15,14 @@ html {
 }
 
 .social-icon {
-  max-width: 4em;
+  max-width: 3.75em;
+  min-width: 2em;
 }
 
+.social-icon:hover {
+  transform: scale(1.2);
+  transition: all 150ms ease;
+}
 
 @media only screen and (min-width: 0em) {
 
